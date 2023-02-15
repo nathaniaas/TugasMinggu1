@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card-container {
+    border-radius: 12px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: -2px 2px 17px 1px rgba(217,211,211,0.75);
+-webkit-box-shadow: -2px 2px 17px 1px rgba(217,211,211,0.75);
+-moz-box-shadow: -2px 2px 17px 1px rgba(217,211,211,0.75);
+}
+.card-container:hover {
+    border-radius: 12px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: -3px 7px 22px 13px rgba(199,198,198,0.75);
+-webkit-box-shadow: -3px 7px 22px 13px rgba(199,198,198,0.75);
+-moz-box-shadow: -3px 7px 22px 13px rgba(199,198,198,0.75);
+}
+.card-image {
+    height: 200px;
+    border-radius: 12px;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+.content {
+    margin-top: 12px;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+}
+button {
+    margin-top: 12px;
+    width: 100%;
+    background-color: gainsboro;
+    border: none;
+    padding: 12px 0px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+button:hover {
+    margin-top: 12px;
+    width: 100%;
+    background-color: gainsboro;
+    border: none;
+    padding: 12px 0px;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: -2px 2px 17px 1px rgba(217,211,211,0.75);
+-webkit-box-shadow: -2px 2px 17px 1px rgba(217,211,211,0.75);
+-moz-box-shadow: -2px 2px 17px 1px rgba(217,211,211,0.75);
+}
+.card-input-container {
+    display: flex;
+}
+.card-input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* membuat 3 kolom dengan ukuran yang sama */
+    grid-template-rows: 100px 200px; /* membuat 2 baris dengan ukuran yang berbeda */
+    grid-gap: 20px; /* memberikan jarak antar elemen sebesar 20px */
+  }
+  .grid-item {
+    background-color: #ddd; /* memberikan warna latar belakang pada elemen */
+    text-align: center; /* mengatur posisi teks pada tengah */
+    padding: 20px; /* memberikan padding pada elemen */
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+  }
